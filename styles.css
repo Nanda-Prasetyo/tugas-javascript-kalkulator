@@ -42,10 +42,10 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+/* button:hover {
     background-color: #2980b9;
-}
+} */
 
 button:active {
-    background-color: #3498db;
+    background-color: #2980b9;
 }
