@@ -42,10 +42,21 @@ button {
     transition: background-color 0.3s ease;
 }
 
-/* button:hover {
+button:hover {
     background-color: #2980b9;
-} */
+}
 
 button:active {
     background-color: #2980b9;
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        max-width: 100%;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px;
+    }
 }
