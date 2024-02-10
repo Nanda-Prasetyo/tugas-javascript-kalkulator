@@ -71,17 +71,6 @@ function appendToDisplay(value) {
     display.value += value;
 }
 
-function calculatePercentage() {
-    var display = document.getElementById('display');
-
-    try {
-        var result = eval(display.value) / 100;
-        display.value = result;
-    } catch (error) {
-        display.value = 'Error';
-    }
-}
-
 function clearDisplay() {
     document.getElementById('display').value = '';
 }
