@@ -60,3 +60,9 @@ button:active {
         padding: 10px;
     }
 }
+
+@media (max-width: 767px) {
+    body {
+        background-color: #fff; /* Mengganti warna background pada layar ponsel */
+    }
+}
