@@ -60,6 +60,17 @@ function appendToDisplay(value) {
     display.value += value;
 }
 
+function appendToDisplay(value) {
+    var display = document.getElementById('display');
+
+    // Memastikan tidak ada dua koma yang bersebelahan
+    if (value === '.' && display.value.slice(-1) === '.') {
+        return;
+    }
+
+    display.value += value;
+}
+
 function clearDisplay() {
     document.getElementById('display').value = '';
 }
